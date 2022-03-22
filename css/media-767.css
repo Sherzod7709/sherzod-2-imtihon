@@ -1,0 +1,309 @@
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 767px;
+    padding: 30px 31px;
+  }
+  .navbar {
+    width: 767px;
+    margin: 0 auto;
+  }
+  .label {
+    position: relative;
+  }
+  .bars-gamburg {
+    position: relative;
+    visibility: visible;
+    width: 30px;
+    height: 19px;
+    left: 620px;
+  }
+  .site-menu {
+    width: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    right: 70px;
+    background-color: whitesmoke;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .nav-list {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 100px;
+  }
+  .nav-contact {
+    margin-right: 100px;
+    border: 1px solid #d6d0d0;
+  }
+  .check:checked ~ .site-menu {
+    opacity: 1;
+  }
+  .check:checked ~ .close {
+    opacity: 1;
+  }
+  .close {
+    position: relative;
+    left: 590px;
+    background-color: white;
+    width: 40px;
+    color: 40px;
+  }
+  .section-page1 {
+    margin-top: -20px;
+  }
+  .section-page1-tittle {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .section-page1-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section-page1-link {
+    width: 136px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 19px 67px;
+  }
+  .lamp {
+    right: 150px;
+    top: 150px;
+  }
+  .nav-contact {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px;
+    margin-left: 100px;
+  }
+  .lamp {
+    width: 51px;
+    height: 51px;
+    top: 100px;
+    right: 140px;
+  }
+  .learning-img {
+    width: 352px;
+    height: 352px;
+  }
+  .hero-tittle-style {
+    font-size: 30px;
+  }
+  .card-tittle-style {
+    font-size: 20px;
+  }
+  .card-text-style {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .card-text {
+    margin-top: -20px;
+  }
+  .card-link-style {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .card {
+    width: 224px;
+    height: 662px;
+  }
+  .card-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 197px;
+  }
+  .card1-img {
+    width: 214px;
+    height: 214px;
+  }
+  .card-btn {
+    margin-top: 20px;
+  }
+  .card-link {
+    padding: 14px 42px;
+  }
+  .card2 {
+    width: 227px;
+    height: 441px;
+    margin-left: 10px;
+  }
+  .card2-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+  .card2-hero {
+    margin: -50px auto auto;
+    width: 200px;
+  }
+  .card3 {
+    width: 228px;
+    height: 442px;
+    margin-left: 10px;
+  }
+  .card3-img {
+    margin-left: 20px;
+    width: 216px;
+    height: 144px;
+  }
+  .card3-btn {
+    margin-top: 40px;
+  }
+  .card3-hero {
+    width: 200px;
+  }
+  .card4 {
+    margin-left: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 462px;
+    height: 210px;
+    margin-top: 10px;
+  }
+  .card4-btn {
+    margin-top: 50px;
+  }
+  .card4-img {
+    width: 202px;
+    height: 134px;
+  }
+  .card4-tittle {
+    position: relative;
+    top: 25px;
+  }
+  .card4-hero {
+    margin-top: -150px;
+    width: 220px;
+    height: 180px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 15px;
+  }
+  .tittle-style, .number {
+    font-size: 22px;
+  }
+  .hero2 {
+    margin-top: 60px;
+  }
+  .hero2-page1 {
+    width: 330px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero2-img {
+    width: 295px;
+    height: 295px;
+  }
+  .hero2-tittle {
+    font-size: 30px;
+  }
+  .hero2-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .number {
+    font-size: 22px;
+  }
+  .foot-text {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .hero3-tittle {
+    margin-top: 88px;
+  }
+  .hero3 {
+    margin-top: -20px;
+  }
+  .hero3-box-photo {
+    width: 197px;
+    height: 197px;
+  }
+  .hero3-box2-photo {
+    width: 168px;
+    width: 219px;
+  }
+  .hero3-box3-photo {
+    width: 210px;
+    height: 210px;
+  }
+  .hero3-box-tittle {
+    width: 180px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .hero3-box {
+    width: 220px;
+  }
+  .text-style, .time-link {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .sum-buy-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .buy-course {
+    width: 205px;
+    height: 45px;
+  }
+  .buy-btn1 {
+    margin-top: -10px;
+  }
+  .buy-btn2 {
+    margin-top: 24px;
+  }
+  .hero4 {
+    margin-top: 150px;
+  }
+  .site-footer-photo {
+    width: 233px;
+  }
+  .footer-page2 {
+    margin-right: 30px;
+    margin-top: -110px;
+    height: 210px;
+    width: 450px;
+  }
+  .input-box {
+    width: 283px;
+    height: 50px;
+  }
+  .go-email {
+    width: 145px;
+    height: 50px;
+  }
+  .site-bottom {
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=media-767.css.map */

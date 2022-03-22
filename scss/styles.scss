@@ -1,0 +1,633 @@
+body {
+    background-color: #E5E5E5;
+}
+@import  './variables' ;
+@import "./media-767.scss";
+@import "./media-575.scss";
+@import "./media-320.scss";
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+}
+.check {
+    visibility: hidden;
+}
+.bars-gamburg {
+    visibility: hidden;
+}
+.close {
+    font-size: 30px;
+    opacity: 0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 55px 130px;
+    background-color: white;
+}
+.navbar {
+    top: 0;
+    width: 1400px;
+    height: 150px;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.label {
+    display: flex;
+    align-items: center;
+}
+.site-menu {
+    display: flex;
+    align-items: center;
+}
+.site-logo {
+    display: flex;
+}
+.logo-1,.logo-2 {
+    font-size: 36px;
+    line-height: 54px;
+}
+.logo-1 {
+    color: 
+    #000000;
+}
+.logo-2 {
+    color: #8F95A5;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list__item:not(:last-child){
+    margin-right: 32px;
+}
+.nav-item-link:hover {
+    color: #8F95A5;
+}
+.nav-item-link {
+    color: $main-menu-tittle-color;
+    font-size: $main-page-text-fz;
+    line-height: $main-page-text-lh;
+}
+.nav-contact:hover {
+    color: #8F95A5;
+}
+.nav-contact {
+    border: 2px solid $main-btn-bg-color;
+    border-radius: 5px;
+    padding: 17px 57px;
+    font-size: 24px;
+    line-height: 36px;
+    color: $main-tittle-color;
+    margin-left: 250px;
+}
+.section {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s-p1-box {
+    display: flex;
+    position: relative;
+}
+.lamp {
+    width: 86px;
+    height: 86px;
+    position: relative;
+    top: 170px;
+    right: 220px;
+}
+.section-page1-tittle {
+    font-size: 64px;
+    line-height: 80px;
+    color: $main-tittle-color;
+}
+.section-page1-text {
+    margin-top: -10px;
+    font-size: 24px;
+    line-height: 36px;
+    color: $main-text-color;
+}
+.section-page1-link:hover {
+color: #8F95A5;
+}
+.section-page1-link {
+    width: 438px;
+    height: 118px;
+    font-size: 36px;
+    line-height: 54px;
+    color: $main-link-color;
+    background-color: $main-btn-bg-color;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.learning-img {
+    width: 661px;
+    height: 661px;
+}
+.hero {
+    display: flex;
+    margin-left: 20px;
+}
+.hero-page2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-tittle {
+    text-align: center;
+    margin-top: 100px;
+}
+// style styles
+.hero-tittle-style {
+    font-size: $main-tittle-fz;
+    color: $main-tittle-color;
+    line-height: $main-tittle-lh;  
+}
+.card-style {
+    background-color: $main-card-bg-color;
+    border-radius: 10px;
+}
+.card-tittle-style {
+    font-size: 30px;
+    line-height: 80px;
+    color: $main-tittle-color;
+}
+.card-text-style {
+    font-size: $main-card-text-fz;
+    line-height: $main-card-text-lh;
+    color: $main-text-color;
+}
+.card-link-style {
+    color: $main-link-color;
+    background-color: $main-btn-bg-color;
+    border: 0.75 solid $main-btn-bg-color;
+    border-radius: 5px; 
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 51px;
+}
+.card {
+    width: 435px;
+    height: 894px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-hero {
+    width: 347px;
+}
+.card1-img {
+    width: 390px;
+    height: 390px;
+}
+.card-link:hover {
+    color: #8F95A5;
+}
+.card-link-style:hover {
+    color: #8F95A5;
+}
+.card-link {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 17px 63px;
+    color: $main-link-color;
+    background-color: $main-btn-bg-color;
+    border: 0.75 solid $main-btn-bg-color;
+    border-radius: 5px; 
+}
+.card-btn {
+    margin-top: 72px;
+}
+.card2{
+    width: 434px;
+    height: 531px;
+    margin-left: 18px;
+}
+.card2-img {
+    margin-left: 130px;
+}
+.card2-hero {
+    margin: -50px auto auto;
+    width: 350px;
+}
+.card2-tittle {
+    margin-top: 0;
+}
+.card2-text,.card3-text,.card4-text {
+    margin-top: -20px;
+}
+.card2-btn {
+    margin-top: 33px;
+}
+.card3 {
+    width: 432px;
+    height: 532px;
+    margin-left: 18px;
+}
+.card3-btn {
+    margin-top: 33px;
+}
+.card3-hero {
+    width: 370px;
+    margin: -38px auto auto;
+}
+.card4 {
+    width: 885px;
+    height: 343px;
+    display: flex;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+.card4-hero {
+    width: 350px;
+    margin-left: 41px;
+}
+.card4-btn {
+    margin-top: 33px;
+}
+// style style
+.tittle-style,.number {
+    color: $main-tittle-color;
+    line-height: $main-tittle-lh;
+    font-size: $main-tittle-fz;
+}
+.text-style,.foot-text {
+    font-size: $main-page-text-fz;
+    line-height: $main-page-text-lh;
+    color: $main-text-color;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 222px;
+}
+.hero2-page1 {
+    width: 635px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+.hero2-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.hero2-img {
+    width: 500px;
+    height: 500px;
+}
+.hero2-people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-text {
+    margin-top: -50px;
+}
+.hero3-tittle {
+    margin-top: 180px;
+    text-align: center;
+}
+.hero3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.hero3-box {
+    width: 430px;
+}
+.hero3-box-tittle {
+    color: $main-tittle-color;
+    font-size:$main-min-tittile-fz;
+}
+.buy-course {
+    width: 240px;
+    height: 45px;
+    background-color: $main-card-bg-color;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy-btn2,.buy-btn3 {
+    margin-top: 50px;
+}
+.sum-buy-link:hover {
+    color: #000000;
+}
+.time-link:hover {
+color: #000000;
+}
+.hero4 {
+    display: flex;
+    margin-top: 201px;
+}
+.footer-page2 {
+    width: 776px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 70px;
+}
+.site-form {
+    display: flex;
+    margin-top: 30px;
+}
+.input-box {
+    width: 450px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #8F95A5;
+    outline: none;
+    padding-left: 33px;
+}
+.go-email:hover {
+    color: #8F95A5;
+}
+.go-email {
+    width: 264px;
+    height: 80px;
+    background-color: $main-btn-bg-color;
+    border-radius: 10px;
+    color: $main-link-color;
+    font-size: $main-card-text-fz;
+    margin-left: 12px;
+}
+.hr {
+    margin-top: 115px;
+}
+.site-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.site-list-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo-bottom {
+    display: flex;
+}
+.bottom-link:hover {
+color: #000000;
+}
+.bottom-link {
+    color: $main-text-color;
+    font-size: 24px;
+}
+
+
+@media only screen and(max-width: 992px ){
+    .container {
+        width: 992px;
+        padding: 30px 31px;
+    }
+    .navbar {
+        width: 992px;
+        height: 100px;
+    }
+    .logo-1,.logo-2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .nav-item-link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .nav-list {
+        margin-left: 40px;
+    }
+    .nav-contact {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 11px 40px;
+        margin-left: 100px;
+    }
+    .lamp {
+        width: 59px;
+        height: 59px;
+        top: 140px;
+        right: 190px;
+    }
+    .section-page1-tittle {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .section-page1-text {
+        font-size: 20px;
+        line-height: 30px;
+        color: $main-text-color;
+    }
+    .section-page1-link {
+        width: 236px;
+        height: 65px;
+        font-size: 24px;
+        line-height: 36px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .learning-img {
+        width: 440px;
+        height: 440px;
+    }
+    .hero-tittle-style {
+        font-size: 36px;
+    }
+    .card-tittle-style {
+        font-size: 22px;
+    }
+    .card-text-style {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .card-link-style {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .card {
+        width: 303px;
+        height: 696px;
+    }
+    .card-hero {
+        width: 262px;
+    }
+    .card1-img {
+        width: 260px;
+        height: 260px;
+    }
+    .card-btn {
+        margin-top: 40px;
+    }
+    .card-link {
+        padding: 17px 41px;
+    }
+    .card2 {
+        width: 302px;
+        height: 441px;
+        margin-left: 13px;
+    }
+    .card2-img {
+        width: 205px;
+        height: 205px;
+        margin-left: 90px;
+    }
+    .card2-hero {
+        margin: -50px auto auto;
+        width: 240px;
+    }
+    .card3 {
+        width: 304px;
+        height: 442px;
+        margin-left: 13px;
+    }
+    .card3-img {
+        width: 243px;
+        height: 162px;
+    }
+    .card3-btn {
+        margin-top: 60px;
+    }
+    .card3-hero {
+        width: 252px;
+        margin: -20px auto auto;
+    }
+    .card4 {
+        margin-left: 13px;
+        align-items: center;
+        width: 616px;
+        height: 241px;
+        margin-top: 10px;
+    }
+    .card4-img {
+        width: 254px;
+        height: 169px;
+    }
+    .card4-hero {
+        margin-top: -60px;
+        margin-left: 25px;
+    }
+    .hero2 {
+        align-items: center;
+        margin-top: 65px;
+    }
+    .hero2-page1 {
+        width: 550px;
+    }
+    .hero2-img {
+        width: 336px;
+        height: 336px;
+    }
+    .hero2-tittle {
+        font-size: 36px;
+    }
+    .hero2-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .number {
+        font-size: $main-min-tittile-fz;
+    }
+    .foot-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hero3-tittle {
+        margin-top: 125px;
+    }
+    .hero3 {
+        margin-top: -20px;
+    }
+    .hero3-box-photo {
+        width: 199px;
+        height: 199px;
+    }
+    .hero3-box2-photo {
+        height: 195px;
+        width: 267px;
+        margin: 0 auto;
+    }
+    .hero3-box3-photo {
+        width: 242px;
+        height: 242px;
+    }
+    .hero3-box-tittle {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .text-style,.time-link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sum-buy-link {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .buy-btn1 {
+        margin-top: 25px;
+    }
+    .hero3-box3-photo {
+        width: 312px;
+        height: 281px;
+        margin-left: -25px;
+    }
+    .hero4 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .site-footer-photo {
+        width: 243px;
+        height: 210px;
+    }
+    .footer-page2 {
+        margin-top: -110px;
+        height: 200px;
+        width: 550px;
+    }
+    .input-box {
+        width: 323px;
+        height: 60px;
+    }
+    .go-email{
+        width: 193px;
+        height: 60px;
+    }
+    .site-bottom {
+        margin-top: 18px;
+    }
+    .site-foot-tittle {
+        font-size: $main-min-tittile-fz;
+    }
+    .site-foot-text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .logo-1,.logo-2 {
+        font-size: 30px;
+        line-height: 45px;       
+    }
+    .bottom-link {
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+}
+
+
+

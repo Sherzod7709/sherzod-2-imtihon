@@ -1,0 +1,244 @@
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+    padding: 36px 14px;
+  }
+  .navbar {
+    width: 320px;
+  }
+  .site-menu {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+    width: 180px;
+    height: 280px;
+    margin-top: 290px;
+    margin-left: -30px;
+    background-color: #dfdddd;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: inset 0 0 50px whitesmoke;
+            box-shadow: inset 0 0 50px whitesmoke;
+  }
+  .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-right: 60px;
+    width: 180px;
+  }
+  .nav-list__item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .contac {
+    margin-right: 25px;
+  }
+  .nav-contact {
+    color: grey;
+    font-size: 14px;
+  }
+  .nav-item-link {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .check:checked ~ .site-menu {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .bars-gamburg {
+    left: 185px;
+  }
+  .close {
+    left: 155px;
+  }
+  .learning-img {
+    width: 299px;
+    height: 299px;
+  }
+  .section {
+    margin-top: 30px;
+    width: 320px;
+  }
+  .section-page1 {
+    width: 320px;
+  }
+  .section-page1-link {
+    padding: 18px 99px;
+  }
+  .section-page1-tittle {
+    font-size: 24px;
+    width: 220px;
+  }
+  .section-page1-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hero-tittle {
+    font-size: 24px;
+    margin-top: 51px;
+  }
+  .card, .card2, .card3, .card4 {
+    width: 290px;
+  }
+  .card {
+    position: relative;
+    right: 5px;
+    height: 600px;
+  }
+  .card2, .card3, .card4 {
+    height: 473px;
+    position: relative;
+    right: 35px;
+  }
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero-page2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card2 {
+    margin-top: 20px;
+  }
+  .card3 {
+    position: relative;
+    right: 500px;
+  }
+  .card2-btn, .card3-btn {
+    bottom: 0px;
+  }
+  .card3 {
+    position: relative;
+    margin-top: 20px;
+    right: 35px;
+  }
+  .card4 {
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    position: relative;
+    bottom: 0px;
+    position: relative;
+  }
+  .card4-img {
+    position: relative;
+    top: -120px;
+  }
+  .hero2 {
+    margin-top: 180px;
+  }
+  .hero2-img {
+    width: 283px;
+    height: 283px;
+  }
+  .hero2-tittle {
+    position: relative;
+    top: -380px;
+  }
+  .hero2-page1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 270px;
+    text-align: center;
+  }
+  .hero2-foot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 270px;
+  }
+  .hero3-tittle {
+    margin-top: 54px;
+  }
+  .hero3-box-tittle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hero3-box {
+    width: 290px;
+  }
+  .talk {
+    width: 300px;
+  }
+  .buy-btn1 {
+    margin-top: 20px;
+  }
+  .site-foot-tittle {
+    top: -340px;
+    left: 0px;
+    font-size: 24px;
+  }
+  .site-footer-photo {
+    margin-top: -80px;
+    width: 253px;
+    height: 228px;
+  }
+  .site-foot-text {
+    position: relative;
+    top: -70px;
+    font-size: 14px;
+    line-height: 21px;
+    width: 290px;
+    text-align: center;
+  }
+  .site-foot-text {
+    margin-top: 38px;
+  }
+  .input-box {
+    position: relative;
+    right: 16px;
+    width: 286px;
+    height: 50px;
+  }
+  .site-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .go-email {
+    position: relative;
+    width: 330px;
+    height: 60px;
+    margin-top: 17px;
+    right: 30px;
+    color: chartreuse;
+  }
+  .hr {
+    margin-top: 10px;
+  }
+  .logo-1, .logo-2 {
+    font-size: 24px;
+  }
+  .site-logo-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .site-list-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottom-link {
+    font-size: 11px;
+    line-height: 16.5px;
+  }
+}
+/*# sourceMappingURL=media-320.css.map */
